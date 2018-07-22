@@ -6,7 +6,8 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            SimpleFactory.Sample.Start();
+            //Creational.SimpleFactory.Sample.Start();
+            Creational.FactoryMethod.Sample.Start();
 
             Console.ReadKey();
         }

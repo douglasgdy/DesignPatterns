@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns.SimpleFactory
+namespace DesignPatterns.Creational
 {
-    public class Bike : Vehicle
+    public class Train : Vehicle
     {
         public override void Move()
         {
-            Console.WriteLine("A bike is moving.");
+            Console.WriteLine("A train is moving.");
         }
     }
 }

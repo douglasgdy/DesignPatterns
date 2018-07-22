@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPatterns.SimpleFactory
+namespace DesignPatterns.Creational.SimpleFactory
 {
     public enum VehicleType
     {

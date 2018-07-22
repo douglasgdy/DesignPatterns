@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns.SimpleFactory
+namespace DesignPatterns.Creational.SimpleFactory
 {
     public class Sample
     {
