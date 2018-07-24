@@ -5,4 +5,9 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Creational\AbstractFactory\" />
+    <Folder Include="Creational\Singleton\" />
+  </ItemGroup>
+
 </Project>

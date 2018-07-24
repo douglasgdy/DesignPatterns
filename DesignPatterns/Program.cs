@@ -6,11 +6,47 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            //Creational.SimpleFactory.Sample.Start();
-            //Creational.FactoryMethod.Sample.Start();
-            Creational.Builder.Sample.Start();
+            Console.WriteLine("Please select a number to start pattern sample, numbers as follow:");
+            Console.WriteLine(" 1: simple factory pattern");
+            Console.WriteLine(" 2: factory method pattern");
+            Console.WriteLine(" 3: abstract factory pattern");
+            Console.WriteLine(" 4: builder pattern");
+            Console.WriteLine(" 5: singleton pattern");
 
-            Console.ReadKey();
+            while (true)
+            {
+                int number = 0;
+                while (true)
+                {
+                    Console.Write("Please enter: ");
+                    string numText = Console.ReadLine();
+                    if (int.TryParse(numText, out number))
+                        break;
+                }
+
+                switch (number)
+                {
+                    case 1:
+                        Creational.SimpleFactory.Sample.Start();
+                        break;
+                    case 2:
+                        Creational.FactoryMethod.Sample.Start();
+                        break;
+                    case 3:
+                        break;
+                    case 4:
+                        Creational.Builder.Sample.Start();
+                        break;
+                    case 5:
+                        break;
+                    default:
+                        goto Exit;
+                }
+                Console.WriteLine("------------------");
+            }
+
+            Exit:
+            return;
         }
     }
 }
