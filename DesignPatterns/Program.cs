@@ -33,6 +33,7 @@ namespace DesignPatterns
                         Creational.FactoryMethod.Sample.Start();
                         break;
                     case 3:
+                        Creational.AbstractFactory.Sample.Start();
                         break;
                     case 4:
                         Creational.Builder.Sample.Start();

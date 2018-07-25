@@ -6,8 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Creational\AbstractFactory\" />
     <Folder Include="Creational\Singleton\" />
+    <Folder Include="Structural\" />
   </ItemGroup>
 
 </Project>
