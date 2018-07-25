@@ -12,6 +12,7 @@ namespace DesignPatterns
             Console.WriteLine(" 3: abstract factory pattern");
             Console.WriteLine(" 4: builder pattern");
             Console.WriteLine(" 5: singleton pattern");
+            Console.WriteLine(" 6: adapter pattern");
 
             while (true)
             {
@@ -39,6 +40,9 @@ namespace DesignPatterns
                         Creational.Builder.Sample.Start();
                         break;
                     case 5:
+                        break;
+                    case 6:
+                        Structural.Adapter.Sample.Start();
                         break;
                     default:
                         goto Exit;
