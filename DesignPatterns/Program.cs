@@ -16,7 +16,7 @@ namespace DesignPatterns
             Console.WriteLine(" 7: bridge pattern");
             Console.WriteLine(" 8: decorator pattern");
             Console.WriteLine(" 9: facade pattern");
-            Console.WriteLine("10: flyweight  pattern");
+            Console.WriteLine("10: flyweight pattern");
             Console.WriteLine("11: proxy pattern");
 
             while (true)
