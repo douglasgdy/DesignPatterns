@@ -13,6 +13,11 @@ namespace DesignPatterns
             Console.WriteLine(" 4: builder pattern");
             Console.WriteLine(" 5: singleton pattern");
             Console.WriteLine(" 6: adapter pattern");
+            Console.WriteLine(" 7: bridge pattern");
+            Console.WriteLine(" 8: decorator pattern");
+            Console.WriteLine(" 9: facade pattern");
+            Console.WriteLine("10: flyweight  pattern");
+            Console.WriteLine("11: proxy pattern");
 
             while (true)
             {
@@ -43,6 +48,18 @@ namespace DesignPatterns
                         break;
                     case 6:
                         Structural.Adapter.Sample.Start();
+                        break;
+                    case 7:
+                        break;
+                    case 8:
+                        Structural.Decorator.Sample.Start();
+                        break;
+                    case 9:
+                        break;
+                    case 10:
+                        break;
+                    case 11:
+                        Structural.Proxy.Sample.Start();
                         break;
                     default:
                         goto Exit;
