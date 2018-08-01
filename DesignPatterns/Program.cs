@@ -50,11 +50,13 @@ namespace DesignPatterns
                         Structural.Adapter.Sample.Start();
                         break;
                     case 7:
+                        Structural.Bridge.Sample.Start();
                         break;
                     case 8:
                         Structural.Decorator.Sample.Start();
                         break;
                     case 9:
+                        Structural.Facade.Sample.Start();
                         break;
                     case 10:
                         break;
