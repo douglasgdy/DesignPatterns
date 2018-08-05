@@ -18,6 +18,7 @@ namespace DesignPatterns
             Console.WriteLine(" 9: facade pattern");
             Console.WriteLine("10: flyweight pattern");
             Console.WriteLine("11: proxy pattern");
+            Console.WriteLine("12: command pattern");
 
             while (true)
             {
@@ -63,6 +64,9 @@ namespace DesignPatterns
                         break;
                     case 11:
                         Structural.Proxy.Sample.Start();
+                        break;
+                    case 12:
+                        Behavioral.Command.Sample.Start();
                         break;
                     default:
                         goto Exit;
