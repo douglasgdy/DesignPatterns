@@ -59,6 +59,7 @@ namespace DesignPatterns
                         Structural.Facade.Sample.Start();
                         break;
                     case 10:
+                        Structural.Flyweight.Sample.Start();
                         break;
                     case 11:
                         Structural.Proxy.Sample.Start();
