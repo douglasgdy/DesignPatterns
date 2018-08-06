@@ -20,6 +20,7 @@ namespace DesignPatterns
             Console.WriteLine("11: proxy pattern");
             Console.WriteLine("12: command pattern");
             Console.WriteLine("13: observer pattern");
+            Console.WriteLine("14: state pattern");
 
             while (true)
             {
@@ -71,6 +72,9 @@ namespace DesignPatterns
                         break;
                     case 13:
                         Behavioral.Observer.Sample.Start();
+                        break;
+                    case 14:
+                        Behavioral.State.Sample.Start();
                         break;
                     default:
                         goto Exit;
