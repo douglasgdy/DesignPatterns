@@ -21,6 +21,7 @@ namespace DesignPatterns
             Console.WriteLine("12: command pattern");
             Console.WriteLine("13: observer pattern");
             Console.WriteLine("14: state pattern");
+            Console.WriteLine("15: mediator pattern");
 
             while (true)
             {
@@ -75,6 +76,9 @@ namespace DesignPatterns
                         break;
                     case 14:
                         Behavioral.State.Sample.Start();
+                        break;
+                    case 15:
+                        Behavioral.Mediator.Sample.Start();
                         break;
                     default:
                         goto Exit;

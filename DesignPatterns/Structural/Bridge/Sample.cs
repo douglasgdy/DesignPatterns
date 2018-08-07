@@ -9,10 +9,13 @@ namespace DesignPatterns.Structural.Bridge
         public static void Start()
         {
             var person = new Person();
+
+            Console.WriteLine("Get a programmer:");
             person.Attach(new Programming());
             person.Perform();
             person.Detach();
 
+            Console.WriteLine("Get a singer:");
             person.Attach(new Singing());
             person.Perform();
             person.Detach();

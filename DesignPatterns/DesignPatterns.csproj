@@ -8,7 +8,6 @@
   <ItemGroup>
     <Folder Include="Behavioral\Strategy\" />
     <Folder Include="Creational\Singleton\" />
-    <Folder Include="Behavioral\Mediator\" />
   </ItemGroup>
 
 </Project>
