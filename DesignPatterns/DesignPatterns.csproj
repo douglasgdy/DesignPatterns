@@ -6,7 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Behavioral\Strategy\" />
     <Folder Include="Creational\Singleton\" />
   </ItemGroup>
 

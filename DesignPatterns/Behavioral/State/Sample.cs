@@ -15,6 +15,7 @@ namespace DesignPatterns.Behavioral.State
             clientContext.Send("Hello sent from client.");
             serverContext.Send("Hello sent from server.");
 
+            Console.WriteLine("Trying to connect TCP and then send message:");
             clientContext.Connect(serverContext);
             clientContext.Send("Hello sent from client.");
             serverContext.Send("Hello sent from server.");
